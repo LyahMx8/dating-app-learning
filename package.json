@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "dates",
+=======
+  "name": "dating-app",
+>>>>>>> a3d528d980d9c634fb7e076af8b2153e8bf33296
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -9,10 +13,18 @@
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+<<<<<<< HEAD
     "start": "DISABLE_ESLINT_PLUGIN=true nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
+=======
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+>>>>>>> a3d528d980d9c634fb7e076af8b2153e8bf33296
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
